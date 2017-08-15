@@ -1,0 +1,39 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Without the diff feature, we would have had to comb through the entire code of both docs to find the errors within, whereas the diff command pointed me right to it.
+
+
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It can allow you to see what works, see what doesn't work, and ultimately have the flexibility to move back and forth between versions.
+
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+This allows you to save at intervals that make sense to you, so that when you are going back through your commits you will understand what you are looking at.
+
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+When coding something such as a game, website, etc, you will likely require the usage of multiple programming languages. Since each file can (normally) only work with one language, multiple files are necessary in order to style pages and create dynamic items. Since these files are all collaborating intuitively, it probably makes sense to save them all at the same time so that you can return to previous versions if you accidentally introduced a bug across all files. Google Docs is merely a text editor, albeit a highly advanced one, and it is highly unlikely that it will be used for anything other than writing paragraphs or creating outlines. It isn't necessary to save multiple files in one swoop as they do not draw information from each other.
+
+
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+Git log will show you a list of all of the previous commits that you've made of your files in that specific repository. Each commit will have a message that you choose to leave, which will help you identify what changed from one commit to the next. Git diff allows you to go further, to pick out the individual changes that you made between different versions.
+
+
+
+6. How might using version control make you more confident to make changes that could break something?
+
+When making a change to a file, you know that you will always be able to undo that change and revert back to a previous step if it does not work. Messing with stuff will not be the downfall of your game, there is an undo button.
+
+
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to know how to use git so that for future projects, I am able to collaborate more easily with friends from school on GitHub.
