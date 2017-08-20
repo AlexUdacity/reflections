@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A new hidden file is created called .git, and this file stores the metadata from all previous commits. Without initializing a repository, this file won't be created, and thus no data can be stored.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like a popup warning you "Do you want to make this change?" so that you think about it before continuing as there is no going back.
