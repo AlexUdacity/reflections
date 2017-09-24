@@ -27,3 +27,7 @@ You can easily trace backwards through the diagram to see what is in the log and
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together allows all changes from both branches to be represented in one single commit. We represent the diagram the way we do to indicate which files are the "parents" of each file, that is what file preceded them.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+In automatic merging, sometimes there will be no conflicts and you won't have to do any other work, whereas in manually merging you would.
