@@ -7,3 +7,23 @@ A new hidden file is created called .git, and this file stores the metadata from
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is like a popup warning you "Do you want to make this change?" so that you think about it before continuing as there is no going back.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use it to inspect everything in the files to make sure everything is related.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches make it so that you can create alternate versions of the game/ experiment with other features without cluttering your master log.
+
+
+How do the diagrams help you visualize the branch structure?
+
+You can easily trace backwards through the diagram to see what is in the log and what isn't.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together allows all changes from both branches to be represented in one single commit. We represent the diagram the way we do to indicate which files are the "parents" of each file, that is what file preceded them.
